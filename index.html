@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Translator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>Мультиязычный сайт</h1>
+      </header>
+      
+     
+<main>
+    <h2>Введите текст ниже</h2>
+      
+      <section class="languages">
+        
+<div class="textselect">
+<input type="text" id="textInput" placeholder="Введите текст">
+      <select id="languageSelect">
+        <ul>
+        <li><option value="en">Английский</option></li>
+        <li><option value="ru">Русский</option></li>
+        <li><option value="fr">Французский</option></li>
+        </ul>
+      </select>
+</div>
+      <button onclick="translateText()">Перевести</button>
+    </section>
+      
+      
+<section class="translation">
+          <h2>Перевод</h2>
+          
+
+          <p id="outputText">Здесь будет отображаться перевод текста на выбранный язык.</p>
+        </section>
+     </main>
+      <footer>
+        <p>&copy; 2022 Все права защищены</p>
+      </footer>
+      
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>

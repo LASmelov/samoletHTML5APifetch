@@ -1,0 +1,86 @@
+
+
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  main {
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  .languages{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 30px;
+margin: 30px;
+}
+  
+
+.textselect{
+padding: 20px;
+}
+
+.textselect input{
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    }
+
+    .textselect select{
+        padding: 5px;
+        background-color: #333;
+        color: #fff;
+        }
+    
+.languages button{
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    }
+}
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+  
+  #translation {
+    border: 1px solid #333;
+    padding: 10px;
+  }
